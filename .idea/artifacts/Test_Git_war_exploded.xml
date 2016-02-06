@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Test_Git:war exploded">
+    <output-path>$PROJECT_DIR$/target/gavrishs</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Test_Git" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/gavrishs/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="Test_Git/web/Web" />
+    </root>
+  </artifact>
+</component>
